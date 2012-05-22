@@ -64,48 +64,13 @@ body > * {
 }
 #menu > * {
     display: table-cell;
-    width: 33%;
-}
-
-/* battery */
-#battery {
-    text-align: left;
-    padding-left: 5pt;
-}
-#battery-body {
-    border: 5pt solid black;
-    display: inline-block;
-    padding: 0.5em;
-    width: 80pt;
-    text-align: center;
-}
-#battery-progress {
-    background: #FF4444;
-    display: inline-block;
-    width: 10pt;
-    height: 24pt;
-    position: absolute;
-    margin-left: 6pt;
-    margin-top: 6pt;
-    z-index: -1;
-}
-#anode {
-    border: 5pt solid black;
-    border-left: none;
-    display: inline-block;
-    width: 3pt;
-}
-/**/
-
-/* c3d2 */
-#c3d2 {
-    text-align: right;
-    font-family: monospace;
-    font-size: 3em;
-    font-weight: bold;
     padding: 5pt;
+    vertical-align: top;
 }
-/**/
+#battery, #c3d2 { width: 25%; }
+#c3d2 { text-align: right; }
+#buttons { text-align: center; }
+#buttons > * { display: inline; }
 /**/
 
 /* polish */
@@ -149,4 +114,5 @@ body {
 }
 
 /* debug */
-#nav, #menu { display: none; }
+#nav { display: none; }
+nothing { border: 1px solid red; }
