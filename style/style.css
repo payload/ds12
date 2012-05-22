@@ -74,34 +74,13 @@ body > * {
 /**/
 
 /* polish */
-body {
-    background: url("file:///home/payload/Documents/c3d2/c3d2-web/www/datenspuren/2012/images/bg.jpg") white;
-}
-#device {
-    background: #bbb;
-}
-#device-2 {
-    background: #eee;
-}
-#screen {
-    background: white;
-}
-#nav h2 {
-    font-size: 14pt;
-}
-#nav li {
-    list-style: none;
-}
-#nav > * {
-    display: table-row;
-}
-#nav > * > * {
-    display: table-cell;
-    vertical-align: middle;
-    padding: 0.5em 0.5em;
-}
-#nav ul {
+#device { background: #bbb; }
+#device-2 { background: #eee; }
+#screen { background: white; }
+#nav * {
+    font-family: monospace;
     text-align: right;
+    list-style: none;
 }
 /**/
 
@@ -114,5 +93,5 @@ body {
 }
 
 /* debug */
-#nav { display: none; }
+nothing { display: none; }
 nothing { border: 1px solid red; }
