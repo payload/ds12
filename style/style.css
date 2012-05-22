@@ -39,7 +39,7 @@ body > * {
 }
 #nav {
     margin: 0.5em;
-    padding: 0em 0.5em 0.5em 0em;
+    padding: 0em 0.5em 0em 0em;
     border-right: 1pt solid black;
     border-bottom: 1pt solid black;
 }
@@ -81,6 +81,7 @@ body > * {
     font-family: monospace;
     text-align: right;
     list-style: none;
+    padding-left: 0px;
 }
 /**/
 
