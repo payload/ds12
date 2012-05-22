@@ -84,6 +84,7 @@ body > * {
     padding-left: 0px;
 }
 .date { float: right; }
+#content p { text-align: justify; }
 /**/
 
 /* footer */
