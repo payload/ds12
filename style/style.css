@@ -140,5 +140,13 @@ body {
 }
 /**/
 
+/* footer */
+#footer { text-align: center; }
+#oldds { padding-left: 0px; }
+#oldds li {
+    list-style: none;
+    display: inline;
+}
+
 /* debug */
 #nav, #menu { display: none; }
