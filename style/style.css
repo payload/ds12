@@ -23,14 +23,6 @@ body > * {
 #content, #device-2 {
     padding: 0.5em;
 }
-#head {
-    display: table;
-    width: 100%;
-}
-#head > * {
-    display: table-cell;
-    width: 33%;
-}
 /**/
 
 /* borders */
