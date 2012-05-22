@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0">
+  <channel>
+    <title>www.c3d2.de Newsfeed</title>
+    <link>http://www.c3d2.de/</link>
+    <description>Neues aus dem Chaos Computer Club Dresden</description>
+    <language>de-de</language>
+    <image>
+      <title>Chaosknoten</title>
+      <url>http://www.c3d2.de/images/ck.png</url>
+      <link>http://www.c3d2.de/</link>
+    </image>
+    <item xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+      <title>Datenspuren 2012 - Voll verwanzt</title>
+      <description><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/../datenspuren/2011/images/ds2011-logo.png" title="Datenspuren 2011" alt="Datenspuren 2011" class=""/><p class="">
+      Wir freuen uns, dass der Termin und das Motto für die nächsten steht:
+  </p><p class=""><strong>Datenspuren 2012 - Voll verwanzt</strong></p><ul>
+          <li>Samstag und Sonntag</li>
+          <li>13. und 14. Oktober 2012</li>
+          <li>Kulturzentrum Scheune</li>
+      </ul><p class="">
+          Mehr Infos folgen bald!
+  </p></div>]]></description>
+      <link>http://www.c3d2.de/news/ds11-ds12.html</link>
+      <author>mail@c3d2.de</author>
+      <category>Misc</category>
+      <guid isPermaLink="true">http://www.c3d2.de/news/ds11-ds12.html</guid>
+      <pubDate>Sat, 17 Mar 2012 16:05:45 GMT</pubDate>
+      <content:encoded><![CDATA[<div xmlns="http://www.w3.org/1999/xhtml"><img src="http://www.c3d2.de/images/../datenspuren/2011/images/ds2011-logo.png" title="Datenspuren 2011" alt="Datenspuren 2011" class=""/><p class="">
+      Wir freuen uns, dass der Termin und das Motto für die nächsten steht:
+  </p><p class=""><strong>Datenspuren 2012 - Voll verwanzt</strong></p><ul>
+          <li>Samstag und Sonntag</li>
+          <li>13. und 14. Oktober 2012</li>
+          <li>Kulturzentrum Scheune</li>
+      </ul><p class="">
+          Mehr Infos folgen bald!
+  </p></div>]]></content:encoded>
+    </item>
+  </channel>
+</rss>
+

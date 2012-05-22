@@ -1,0 +1,152 @@
+
+/* placement */
+body {
+    display: table;
+    width: 100%;
+}
+body > * {
+    display: table-cell;
+}
+
+#device {
+    width: 800px;
+    padding: 1em;
+}
+#nav {
+    float: left;
+    margin-right: 0.5em;
+}
+#screen {
+    margin-top: 1em;
+    margin-bottom: 45pt;
+}
+#content, #device-2 {
+    padding: 0.5em;
+}
+#head {
+    display: table;
+    width: 100%;
+}
+#head > * {
+    display: table-cell;
+    width: 33%;
+}
+/**/
+
+/* borders */
+#device {
+    border: 9pt solid black;
+    border-radius: 45pt;
+}
+#device-2 {
+    border: 3pt solid black;
+    border-radius: 27pt;
+}
+#screen {
+    border: 2pt solid black;
+}
+#nav {
+    margin: 0.5em;
+    padding: 0em 0.5em 0.5em 0em;
+    border-right: 1pt solid black;
+    border-bottom: 1pt solid black;
+}
+/**/
+
+/* font */
+* {
+    font-family: sans-serif;
+}
+#head > * {
+    text-align: center;
+}
+#head h1, #head h2 {
+    margin: 0px;
+}
+/**/
+
+/* menu */
+#menu {
+    display: table;
+    width: 100%;
+}
+#menu > * {
+    display: table-cell;
+    width: 33%;
+}
+
+/* battery */
+#battery {
+    text-align: left;
+    padding-left: 5pt;
+}
+#battery-body {
+    border: 5pt solid black;
+    display: inline-block;
+    padding: 0.5em;
+    width: 80pt;
+    text-align: center;
+}
+#battery-progress {
+    background: #FF4444;
+    display: inline-block;
+    width: 10pt;
+    height: 24pt;
+    position: absolute;
+    margin-left: 6pt;
+    margin-top: 6pt;
+    z-index: -1;
+}
+#anode {
+    border: 5pt solid black;
+    border-left: none;
+    display: inline-block;
+    width: 3pt;
+}
+/**/
+
+/* c3d2 */
+#c3d2 {
+    text-align: right;
+    font-family: monospace;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 5pt;
+}
+/**/
+/**/
+
+/* polish */
+body {
+    background: url("file:///home/payload/Documents/c3d2/c3d2-web/www/datenspuren/2012/images/bg.jpg") white;
+}
+#device {
+    background: #bbb;
+}
+#device-2 {
+    background: #eee;
+}
+#screen {
+    background: white;
+}
+#nav h2 {
+    font-size: 14pt;
+}
+#nav li {
+    list-style: none;
+}
+#nav > * {
+    display: table-row;
+}
+#nav > * > * {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0.5em 0.5em;
+}
+#nav ul {
+    text-align: right;
+}
+/**/
+
+/* debug */
+#nav, #menu { display: none; }

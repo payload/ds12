@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="de">
+  <updated>2012-05-11T21:00:00Z</updated>
+  <title>www.c3d2.de Newsfeed</title>
+  <link rel="self" href="http://www.c3d2.de/news-atom.xml"/>
+  <link rel="alternate" type="application/xml+xhtml" href="http://www.c3d2.de/"/>
+  <id>http://www.c3d2.de/</id>
+  <subtitle>Neues aus dem Chaos Computer Club Dresden</subtitle>
+  <logo>http://www.c3d2.de/images/ck.png</logo>
+  <entry>
+    <id>http://www.c3d2.de/news/ds11-ds12.html</id>
+    <title>Datenspuren 2012 - Voll verwanzt</title>
+    <link rel="alternate" type="application/xml+xhtml" href="http://www.c3d2.de/news/ds11-ds12.html"/>
+    <updated>2012-03-17T16:05:45Z</updated>
+    <author>
+      <name>koeart</name>
+    </author>
+    <category term="Misc"/>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <img src="http://www.c3d2.de/images/news/../../datenspuren/2011/images/ds2011-logo.png" title="Datenspuren 2011" alt=""/>
+        <p class="">
+      Wir freuen uns, dass der Termin und das Motto für die nächsten steht:
+  </p>
+        <p class="">
+          <strong>Datenspuren 2012 - Voll verwanzt</strong>
+        </p>
+        <ul>
+          <li>Samstag und Sonntag</li>
+          <li>13. und 14. Oktober 2012</li>
+          <li>Kulturzentrum Scheune</li>
+      </ul>
+        <p class="">
+          Mehr Infos folgen bald!
+  </p>
+      </div>
+    </content>
+  </entry>
+</feed>
+
