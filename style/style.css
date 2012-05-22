@@ -83,6 +83,7 @@ body > * {
     list-style: none;
     padding-left: 0px;
 }
+.date { float: right; }
 /**/
 
 /* footer */
