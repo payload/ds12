@@ -10,7 +10,7 @@ body > * {
 
 #device {
     width: 800px;
-    padding: 1em;
+    padding: 5pt;
 }
 #nav {
     float: left;
@@ -27,12 +27,12 @@ body > * {
 
 /* borders */
 #device {
-    border: 9pt solid black;
-    border-radius: 45pt;
+    border: 0pt solid #CCC;
+    border-radius: 3.5em;
 }
 #device-2 {
-    border: 3pt solid black;
-    border-radius: 27pt;
+    border: 10pt solid black;
+    border-radius: 3em;
 }
 #screen {
     border: 2pt solid black;
@@ -74,8 +74,20 @@ body > * {
 /**/
 
 /* polish */
-#device { background: #bbb; }
-#device-2 { background: #eee; }
+#device {
+    background: #bbb;
+    box-shadow: 0em -0.1em 0.4em #CCC;
+}
+#device-2 {
+    background: #222;
+    background: -moz-linear-gradient(
+        20deg,
+        rgb(10, 8, 9) 0%,
+        rgb(26, 30, 26) 79.9%,
+        rgb(110, 119, 116) 80%,
+        rgb(174, 188, 191) 100%)
+    repeat scroll 0% 0% transparent;
+}
 #screen { background: white; }
 #nav * {
     font-family: monospace;
@@ -85,7 +97,14 @@ body > * {
 }
 .date { float: right; }
 #content p { text-align: justify; }
-a { text-decoration: none; }
+a {
+    text-decoration: none;
+    color: #335;
+}
+#head > * {
+    color: #CCC;
+    font-weight: 300;
+}
 /**/
 
 /* footer */
